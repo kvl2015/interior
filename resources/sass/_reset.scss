@@ -1,0 +1,280 @@
+a {
+  color: #7fb9e1;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7fb9e1;
+}
+
+.hide-me {
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+  -o-animation: cssAnimation 0s ease-in 5s forwards;
+  animation: cssAnimation 0s ease-in 5s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+}
+@keyframes cssAnimation {
+  to {
+    width:0;
+    height:0;
+    overflow:hidden;
+    transition: opacity 2s linear;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+    width:0;
+    height:0;
+    visibility:hidden;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+}
+
+.hide {
+  display: none !important;
+}
+
+.data-group {
+  color: #7182ad;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.ReactModal__Overlay--after-open, .ReactModal__Overlay {
+  z-index: 1999 !important;
+}
+
+
+._rb9 {
+  margin-top: -2px !important;
+  border-top: 0px !important;
+}
+
+.btn-info {
+  background: #fff;
+  border:solid 2px #7fb9e1;
+  color: #7fb9e1 !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  
+}
+
+.btn-info {
+  color: #7fb9e1;
+}
+
+.btn-info:hover {
+  border:solid 2px #7fb9e1;
+  background: #7fb9e1;
+  color: #fff !important;
+}
+
+.btn-info:active, .btn-info:focus {
+  color: #fff;
+  border-color: #7fb9e1 !important;
+  box-shadow: none !important;
+}
+
+.hvr-sweep-to-top {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #7fb9e1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: #FFF;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+
+.disable-content {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.rc-pagination-item-active {
+  background: #7fb9e1 !important;
+  border: solid 1px #7fb9e1 !important;
+
+  a {
+    color: #fff !important;
+  }
+
+  a:not([href]):not([tabindex]){
+    color: #fff;
+  }
+}
+
+.rc-pagination-item:hover {
+  background: #7fb9e1;
+}
+
+.rc-pagination-item {
+  background: none;
+  border: solid 1px #fff !important;
+  width: 32px !important;
+  height: 32px !important;
+
+  a {
+    fon-size: 14px;
+  }
+}
+
+.rc-pagination-item:hover {
+  background: none;
+  border: none;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #7fb9e1;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.rc-pagination-prev, .rc-pagination-next {
+  border: none !important;
+}
+
+.rc-pagination-prev a::after {
+  font-size: 18px;
+}
+
+.pagination {
+  span {
+    display: block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: #7fb9e1;
+  }
+
+  .rc-pagination-item-active {
+    span {
+      color: #fff;
+    }
+  }
+
+
+}
+
+body.modal-open {
+  overflow: visible;
+}
+
+.modal-open {
+  overflow: hidden;
+  padding-right: 0px !important;
+}
+
+.modal-content {
+  border-radius: 0px !important;
+  padding: 0.5rem;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 0px;
+}
+
+
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #ad5284;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 5px;
+}
+
+#leather-menu, #color-menu  {
+  height: 245px;
+  position: relative;
+}
+
+#shadow-site {
+  opacity: 0.7;
+}
+
+.clearfix {
+  clear: both;
+}
+
+clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+#scroller{
+  position: fixed;    
+  bottom: 100px;   
+  @include background ('./../images/scroll-top.png'); 
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display:none;
+  right: 70px;
+  background-size: cover;
+
+  @include less($medium) {
+    right: 30px;
+  }
+}
+
+.scrolled-content {
+  @include less($medium) {
+      max-height: calc(100vh - 90px);
+      overflow-x: hidden;
+      overflow-y: scroll;
+  }
+
+}

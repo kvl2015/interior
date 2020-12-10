@@ -1,0 +1,188 @@
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+
+@import 'variables';
+
+@import 'mixins';
+
+@import 'reset';
+
+@import 'header';
+
+@import "home";
+
+@import "footer";
+
+@import "forms";
+
+@import 'product';
+
+@import 'pagination';
+
+@import 'cart';
+
+@import 'product-grid';
+
+@import 'checkout';
+
+@import 'brands';
+
+@import 'selector';
+
+html {
+    overflow-y: scroll;
+    font-family: 'Roboto', sans-serif !important;
+    height: 100%;
+    color: #333 ;
+}
+
+body {
+    font-size: 15px;
+    color: $fcolor;
+    font-weight: 300;
+   height: 100%;
+}
+
+.container {
+    width: 100%;
+    min-width: 100%;
+
+    @include more($extra-large) {
+        width: 1440px;
+        min-width: 1440px;
+    }
+}
+
+h2.lining {
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    width: 100%;
+}
+
+.page-title {
+    color: #333;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 15px;
+    padding: 0px 20px 8px 0px;
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  
+    h1, h2, span {
+      color: #333e48;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 1.2px;
+      margin: auto;
+      position: relative;
+    }
+  
+    h1::after, span:after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background-color: #ffc107;
+    }
+  }
+main {
+    margin-top: 275px;
+    margin-bottom: 50px;
+
+    @include less($medium) {
+        margin-top: 30px;
+    }
+
+    .container {
+        position: relative;
+        margin: 0 auto;
+
+        @include more($medium) {
+            // min-height: calc(100vh - 490px);
+        }
+
+        @include more($large) {
+            min-width: 1140px;
+        }
+
+    }
+}
+
+.yellow-btn {
+    background: #ffc107;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;    
+    border: none;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.btn-yellow {
+    background: #ffc107;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 8px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;    
+    border: none;
+
+    &:hover {
+        color: #fff;
+        background: #75ba6d;
+    }
+}
+
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+    
+
+    span {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;        
+
+        
+    }
+
+    span:before,
+    span:after {
+    content: '';
+        border-top: 1px solid;
+        margin: 0 20px 0 0;
+        flex: 1 0 20px;
+    }
+
+    span:after {
+        margin: 0 0 0 20px;
+    }
+  }
+
+  .no-record {
+      margin-top: 20px;
+  }
+  
+  

@@ -1,0 +1,87 @@
+.alfabet {
+    margin-top: 10px;
+}
+
+.alfa-filter {
+    border-top: solid 1px #101113;
+    border-bottom: solid 1px #101113;
+    float: left;
+    width: 100%;
+
+    ul {
+        float: left;
+    }
+
+    span {
+        float: right;
+    }
+
+    a {
+        color: #101113;
+    }
+}
+
+.brands-by-letter {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    a {
+        color: #101113;
+    }
+
+    .letter-header {
+        width: 100%;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+
+.letter-filter__interval-letter-sub-item {
+    margin: 0;
+}
+.letter-filter__separator-letter {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.letter-filter__interval-item {
+    border-bottom: 1px solid #ffc107;
+    padding: 2rem 0;
+}
+
+.letter-filter__separator {
+    border-right: 1px solid #ddd;
+    padding-right: 1.5rem;
+    margin-right: 1rem;
+}
+
+.letter-filter__single-item {
+    border-bottom: 1px solid #ffc107;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.letter-filter__single {
+    list-style: none;
+
+    a {
+        color: #101113;
+    }
+}
+
+.alfa-filter-detail {
+    .nav-link {
+        padding: .5rem 0.5rem;
+    }
+}

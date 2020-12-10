@@ -1,0 +1,91 @@
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.js-language-label {
+    font-weight: bold;
+    color:#22A7F0;
+    font-style: italic;
+}
+.js-language-label:before {
+    content: "[";
+}
+.js-language-label:after {
+    content: "]";
+}
+
+.app-container .content-container .side-menu .navbar-nav li a {
+    font-size: 14px;
+}
+
+body, html {
+    font-size: 14px;
+}
+
+.options-table-content td {
+    padding: 5px;
+}
+
+.options-table-content th {
+    padding: 5px;
+    background: #ced4da;
+    font-weight: bold;
+}
+
+.clonable, .options-table-content-clonable {
+    display: none;
+}
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.bd-callout-info {
+    border-left-color: #5bc0de;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.control-label {
+    font-weight: normal;
+    color: #000;
+    font-weight: bold;
+}
+
+.pin-circle {
+    width: 40px;
+    height: 40px;
+    background: #99cbdc;
+    color: #ffffff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.option-title {
+    font-size: 16px;
+    color: #000;
+}
+
+.opt-photo input {
+    width: 200px;
+    border: none !important;
+    padding-top: 0px;
+    padding-left: 0px !important;
+}

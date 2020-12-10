@@ -1,0 +1,203 @@
+.selector {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    width: 590px;
+    font-size: 14px;
+
+    .abbr {
+        display: inline-block;
+        margin-right: 5px;
+        text-transform: uppercase;
+    }
+
+    
+
+    .headline {
+        font-size: 18px;
+        margin-bottom: 10px;
+
+        &::after {
+            content: " ";
+            display: block;
+            height: 2px;
+            width: 25px;
+            background: currentColor;
+            margin: 5px 0 5px 0;
+            float: none;            
+        }
+    }
+
+    .data-list {
+        ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+
+            a {
+                color: #333;
+            }
+
+            img {
+                padding-right: 7px;
+            }
+        }
+    }
+
+    .countries {
+        float:left;
+        width: 190px;
+    }
+
+    .languages, .currencies {
+        ul {
+            display: none;
+        }
+
+        ul.active {
+            display: block;
+        }
+    }
+
+    .selected-currency {
+        font-weight: 500;
+    }
+
+    .country-active {
+        margin-bottom: 10px;
+        /*border-bottom: solid 1px rgba(0,0,0,0.75);
+        padding-bottom: 10px;*/
+        &::after {
+            content: " ";
+            display: block;
+            height: 1px;
+            width: 50px;
+            background: currentColor;
+            margin: 5px 0 5px 0;
+            float: none;            
+        }
+    }
+
+    .mCS-light-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+        width: 1px;
+        border-radius: 0px !important;
+    }
+    
+    .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+        width: 1px;
+        background-color: #000;
+        background-color: rgba(0,0,0,0.75);
+        border-radius: 0px !important;
+    }
+
+    .mCSB_dragger {
+        height: 120px !important;
+    }
+}
+
+.default-selected {
+    text-align: left;
+    width: 70px;
+}
+
+.selected-country-toggler {
+    text-transform: uppercase;
+    margin-right: 5px;
+    margin-top: 3px;
+    font-size: 13px;
+
+    img {
+        margin-top: -3px;
+    }
+}
+.selected-language-toggler {
+    display: block;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.selected-currency-toggler {
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#country-container {
+    height:150px;
+    width: 180px;
+}
+
+.selector-dropdown {
+    width: 320px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    background: #FFF;
+    margin: 0px auto;
+
+    .headline {
+        font-size: 18px;
+        margin-bottom: 20px;
+
+        &::after {
+            content: " ";
+            display: block;
+            height: 2px;
+            width: 25px;
+            background: currentColor;
+            margin: 5px 0 5px 0;
+            float: none;            
+        }
+    }
+
+    .default-selected {
+        width: 100%;
+        margin-bottom: 20px;
+
+        .selected-language-toggler {
+            display: inline-block;
+        }
+    }
+
+    select {
+        margin-bottom: 20px;
+    }
+
+    .avail-languages-select {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+    .avail-currency-select {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    .close-menu {
+        line-height: 40px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        cursor: pointer;
+        float: right;
+        height: 40px;
+        margin: 0 0px;
+        width: 40px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        background-image: url("./../images/cross.svg");
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40%;
+    }
+}
+
+.modal-content-selector {
+    background: transparent !important;
+    border: none;
+}
